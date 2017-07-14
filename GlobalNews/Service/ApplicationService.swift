@@ -32,8 +32,6 @@ class ApplicationService {
     public let showNewsWallAction = SafePublishSubject<(model: NewsAvailable, vc: UIViewController)>()
     public let popVC = SafePublishSubject<UIViewController>()
     
-    private init() {}
-    
     let newsAvailableArray = [NewsAvailable(tag: "cnn",name: "CNN",logoImage: #imageLiteral(resourceName: "cnn")),NewsAvailable(tag: "the-guardian-uk",name: "The Guardian UK",logoImage: #imageLiteral(resourceName: "guardians")),NewsAvailable(tag: "the-new-york-times",name: "The New York Times",logoImage: #imageLiteral(resourceName: "newYorkTimes")),NewsAvailable(tag: "bbc-news",name: "BBC News",logoImage: #imageLiteral(resourceName: "bbc_news")),NewsAvailable(tag: "bbc-sport",name: "BBC Sport",logoImage: #imageLiteral(resourceName: "bbc_sport")),NewsAvailable(tag: "google-news",name: "Google News",logoImage: #imageLiteral(resourceName: "google_news")),NewsAvailable(tag: "techcrunch",name: "TechCrunch",logoImage: #imageLiteral(resourceName: "tech_crunch"))]
     
     
