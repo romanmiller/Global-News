@@ -1,0 +1,8 @@
+github "Alamofire/Alamofire" "4.4.0"
+github "wokalski/Diff.swift" "0.5.3"
+github "ReactiveKit/ReactiveKit" "v3.5.3"
+github "antitypical/Result" "3.2.2"
+github "SwiftyJSON/SwiftyJSON" "3.1.4"
+github "Alamofire/AlamofireImage" "3.2.0"
+github "Thomvis/BrightFutures" "5.2.0"
+github "ReactiveKit/Bond" "6.2.6"
